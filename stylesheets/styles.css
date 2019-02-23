@@ -129,6 +129,12 @@ header li {
   height:40px;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  margin: 0 0 25px;
+}
+
 header li:first-child a {
   border-radius:5px 0 0 5px;
 }
