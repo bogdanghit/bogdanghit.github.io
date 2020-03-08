@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title>Bogdan Ghit</title>
+
+<link rel="stylesheet" href="stylesheets/thesis.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="wrapper">
+
+<section>
+<h1><font size="8" color="gray"><b>Optimizing the Performance of </br> Data Analytics Frameworks</b></font></h1>
+
+<h2 <b>Thesis</b></h2>
+<p>
+My thesis research was featured in the <a href="https://www.commit-nl.nl/news/ongelimiteerd-pokemons-vangen-dankzij-bogdan-ghit" target="_blank"> COMMIT/ Newsletter</a> in 2017. The digital version of my thesis can be accessed through this <a href="https://repository.tudelft.nl/islandora/object/uuid%3A2d9ac8e0-b922-4fcc-a33d-44a67f7bffad" target="_blank"> link</a>.
+</p>
+
+<h2 <b>Abstract</b></h2>
+<p>
+Data analytics frameworks enable users to process large datasets while hiding the complexity of scaling out their computations on large clusters of thousands of machines. Such frameworks parallelize the computations, distribute the data, and tolerate server failures by deploying their own runtime systems and distributed filesystems on subsets of the datacenter resources. Most of the computations required by data analytics applications are conceptually straight-forward and can be performed through massive parallelization of jobs into many fine-grained tasks. Providing efficient and fault-tolerant execution of these tasks in datacenters is ever more challenging and a variety of opportunities for performance optimization still exist. In this thesis we optimize the job performance of data analytics frameworks by addressing several fundamental challenges that arise in datacenters. The first challenge is multi-tenancy: having a large number of users may require isolating their workloads across multiple frameworks. Nevertheless, achieving performance isolation is difficult, because different frameworks may deliver very unbalanced service levels to their users. Second, users have become very demanding from these frameworks, thus expecting timely results for jobs that require only limited resources. However, even with a few long jobs that consume large fractions of the datacenter resources, short jobs may be delayed significantly. Third, improving the job performance in the face of failures is harder still, as we need to allocate extra resources to recompute work which was already done. In order to address these challenges we design, implement, and test several scheduling policies for the evolving usage trends that are derived from the analysis of basic theoretical models. We take an experimental approach and we evaluate the performance of our policies with real-world experiments in a datacenter, using representative workloads and standard benchmarks. Furthermore, we bridge the gap between those experiments and prior theoretical work by performing large-scale simulations of scheduling policies.
+</p>
+
+<h2 <b>Thesis Committee</b></h2>
+
+<a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/distributed-systems/people/dick-epema/" target="_blank">Prof. dr. ir. D. H. J. Epema</a> Delft University of Technology (promotor)
+<br />
+<a href="https://www.nas.ewi.tudelft.nl/people/Piet/" target="_blank">Prof. dr. ir. Piet Van Mieghem</a> Delft University of Technology
+<br />
+<a href="https://www.vuhpdc.net/henri-bal/" target="_blank">Prof. dr. ir. Henri Bal</a> Vrije University of Amsterdam
+<br />
+<a href="https://research.vu.nl/en/persons/alexandru-iosup" target="_blank">Prof. dr. ir. Alexandru Iosup</a> Vrije University of Amsterdam
+<br />
+<a href="https://wp.doc.ic.ac.uk/gcasale/" target="_blank">Dr. Giuliano Casale</a> Imperial College London
+<br />
+<a href="https://people.cs.umu.se/elmroth/" target="_blank">Prof. dr. ir. Erik Elmroth</a> Umea University
+<br />
+<a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-tantawi" target="_blank">Dr. Asser Tantawi</a> IBM Research, USA
+<br />
+
+</body>
+</html>
